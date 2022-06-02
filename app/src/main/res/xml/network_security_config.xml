@@ -4,6 +4,8 @@
         <domain includeSubdomains="true">192.168.0.17</domain>
         <domain includeSubdomains="true">211.243.144.157</domain>
         <domain includeSubdomains="true">192.168.150.102</domain>
+        <domain includeSubdomains="true">192.168.0.109</domain>
+        <domain includeSubdomains="true">192.168.0.112</domain>
     </domain-config>
 </network-security-config>
     <!--네트워크 허용시키는 규약조건 xml파일입니다.
