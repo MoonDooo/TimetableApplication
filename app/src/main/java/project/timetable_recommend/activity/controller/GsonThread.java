@@ -34,7 +34,7 @@ public class GsonThread extends Thread{
         makeRequest();
     }
     public void makeRequest() {
-        String url = "http://211.243.144.157:80/test/Android/android.jsp";
+        String url = "http://:80/test/Android/android.jsp";
         StringRequest request = new StringRequest(Request.Method.GET, url,
                 new Response.Listener<String>() {
                     @Override
