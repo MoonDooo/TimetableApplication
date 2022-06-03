@@ -8,7 +8,7 @@
     android:layout_marginRight="40dp"
     android:background="#FCF7F6"
     android:visibility="visible"
-    tools:context=".StudentInfoFragment"
+    tools:context=".fragment.StudentInfoFragment"
     android:elevation="10dp">
 
     <LinearLayout

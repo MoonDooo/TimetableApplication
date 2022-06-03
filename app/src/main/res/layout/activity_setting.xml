@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#FCF7F6"
-    tools:context=".SettingActivity"
+    tools:context=".activity.settingActivity.SettingActivity"
     android:id="@+id/container">
 
     <TableLayout
@@ -658,9 +658,8 @@
 
         </TableRow>
     </TableLayout>
-
     <fragment
-        android:name="project.timetable_recommend.InputMBTIFragment"
+        android:name="project.timetable_recommend.fragment.InputMBTIFragment"
         android:id="@+id/settingFragment"
         android:layout_width="match_parent"
         android:layout_height="match_parent"

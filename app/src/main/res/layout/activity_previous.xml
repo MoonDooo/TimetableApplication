@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#FCF7F6"
-    tools:context=".PreviousActivity"
+    tools:context=".activity.previousActivity.PreviousActivity"
     android:orientation="vertical">
     <LinearLayout
         android:id="@+id/linearLayout"
@@ -20,7 +20,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
 
-            android:background="@drawable/back_prev_card2"
+            android:background="@drawable/button_prev_design2"
             android:text="1학년   1학기"
             android:textColor="@color/black"
             android:textSize="40dp" />
@@ -30,7 +30,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
 
-            android:background="@drawable/back_prev_card2"
+            android:background="@drawable/button_prev_design2"
             android:text="2학년   1학기"
             android:textColor="@color/black"
             android:textSize="40dp" />
@@ -40,7 +40,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
 
-            android:background="@drawable/back_prev_card2"
+            android:background="@drawable/button_prev_design2"
             android:text="3학년   1학기"
             android:textColor="@color/black"
             android:textSize="40dp" />
@@ -50,7 +50,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
 
-            android:background="@drawable/back_prev_card2"
+            android:background="@drawable/button_prev_design2"
             android:text="4학년   1학기"
             android:textColor="@color/black"
             android:textSize="40dp" />

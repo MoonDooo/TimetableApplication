@@ -6,10 +6,10 @@
     android:layout_marginLeft="40dp"
     android:layout_marginTop="350dp"
     android:layout_marginRight="20dp"
-    android:background="@drawable/button"
+    android:background="@drawable/button_custom_default"
     android:orientation="vertical"
     android:visibility="visible"
-    tools:context=".StudentInfoFragment">
+    tools:context=".fragment.StudentInfoFragment">
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -69,7 +69,7 @@
             android:layout_height="match_parent"
             android:layout_marginRight="5dp"
             android:layout_weight="1"
-            android:background="@drawable/button"
+            android:background="@drawable/user_show_button_anim_ripple_color10"
             android:text="Button" />
     </LinearLayout>
 
@@ -81,7 +81,7 @@
         android:layout_marginTop="10dp"
         android:layout_marginRight="10dp"
         android:layout_marginBottom="10dp"
-        android:background="@drawable/user_show_button_anim_ripple"
+        android:background="@drawable/user_show_button_anim_ripple_default"
         android:elevation="10dp"
         android:text="Finish" />
 

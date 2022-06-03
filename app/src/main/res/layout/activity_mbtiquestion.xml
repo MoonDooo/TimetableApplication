@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MbtiQuestionActivity"
+    tools:context=".activity.settingActivity.MbtiQuestionActivity"
     android:background="#FCF7F6"
     >
 
@@ -31,7 +31,7 @@
 
                     android:layout_weight="3"
 
-                    android:background="@drawable/back_quest6"
+                    android:background="@drawable/textview_mbtiquest_background_design2"
                     android:gravity="start"
                     android:paddingStart="20dp"
                     android:paddingTop="25dp"
@@ -74,7 +74,7 @@
                     android:layout_height="wrap_content"
 
                     android:layout_weight="3"
-                    android:background="@drawable/back_quest6"
+                    android:background="@drawable/textview_mbtiquest_background_design2"
                     android:gravity="start"
                     android:paddingStart="20dp"
                     android:paddingTop="25dp"
@@ -117,7 +117,7 @@
                     android:layout_height="wrap_content"
 
                     android:layout_weight="3"
-                    android:background="@drawable/back_quest6"
+                    android:background="@drawable/textview_mbtiquest_background_design2"
                     android:gravity="start"
                     android:paddingStart="20dp"
                     android:paddingTop="25dp"
@@ -161,7 +161,7 @@
                     android:layout_height="wrap_content"
 
                     android:layout_weight="3"
-                    android:background="@drawable/back_quest6"
+                    android:background="@drawable/textview_mbtiquest_background_design2"
                     android:gravity="start"
                     android:paddingStart="20dp"
                     android:paddingTop="25dp"
@@ -205,7 +205,7 @@
                     android:layout_height="wrap_content"
 
                     android:layout_weight="3"
-                    android:background="@drawable/back_quest6"
+                    android:background="@drawable/textview_mbtiquest_background_design2"
                     android:gravity="start"
                     android:paddingStart="18dp"
                     android:paddingTop="22dp"
@@ -251,7 +251,7 @@
                     android:layout_height="wrap_content"
 
                     android:layout_weight="3"
-                    android:background="@drawable/back_quest6"
+                    android:background="@drawable/textview_mbtiquest_background_design2"
                     android:gravity="start"
                     android:paddingStart="20dp"
                     android:paddingTop="25dp"
@@ -295,7 +295,7 @@
                     android:layout_height="wrap_content"
 
                     android:layout_weight="3"
-                    android:background="@drawable/back_quest6"
+                    android:background="@drawable/textview_mbtiquest_background_design2"
                     android:gravity="start"
                     android:paddingStart="20dp"
                     android:paddingTop="25dp"
@@ -340,7 +340,7 @@
                     android:layout_height="wrap_content"
 
                     android:layout_weight="3"
-                    android:background="@drawable/back_quest6"
+                    android:background="@drawable/textview_mbtiquest_background_design2"
                     android:gravity="start"
                     android:paddingStart="20dp"
                     android:paddingTop="25dp"
@@ -385,7 +385,7 @@
                     android:layout_height="wrap_content"
 
                     android:layout_weight="3"
-                    android:background="@drawable/back_quest6"
+                    android:background="@drawable/textview_mbtiquest_background_design2"
                     android:gravity="start"
                     android:paddingStart="20dp"
                     android:paddingTop="25dp"
@@ -429,7 +429,7 @@
                     android:layout_height="wrap_content"
 
                     android:layout_weight="3"
-                    android:background="@drawable/back_quest6"
+                    android:background="@drawable/textview_mbtiquest_background_design2"
                     android:gravity="start"
                     android:paddingStart="20dp"
                     android:paddingTop="25dp"
@@ -473,7 +473,7 @@
                     android:layout_height="wrap_content"
 
                     android:layout_weight="3"
-                    android:background="@drawable/back_quest6"
+                    android:background="@drawable/textview_mbtiquest_background_design2"
                     android:gravity="start"
                     android:paddingStart="20dp"
                     android:paddingTop="25dp"
@@ -517,7 +517,7 @@
                     android:layout_height="wrap_content"
 
                     android:layout_weight="3"
-                    android:background="@drawable/back_quest6"
+                    android:background="@drawable/textview_mbtiquest_background_design2"
                     android:gravity="start"
                     android:paddingStart="20dp"
                     android:paddingTop="25dp"

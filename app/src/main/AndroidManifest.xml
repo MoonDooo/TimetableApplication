@@ -14,24 +14,24 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Timetable_recommend"
         android:usesCleartextTraffic = "true">
-        <activity android:name=".PreviousLayout1"/>
-        <activity android:name=".PreviousLayout2"/>
-        <activity android:name=".PreviousLayout3"/>
-        <activity android:name=".PreviousLayout4"/>
-        <activity android:name=".MbtiActivity"/>
+        <activity android:name=".activity.previousActivity.PreviousLayout1"/>
+        <activity android:name=".activity.previousActivity.PreviousLayout2"/>
+        <activity android:name=".activity.previousActivity.PreviousLayout3"/>
+        <activity android:name=".activity.previousActivity.PreviousLayout4"/>
+        <activity android:name=".activity.mbtiDiscriptionActivity.MbtiActivity"/>
         <activity
-            android:name=".PreviousActivity"
+            android:name=".activity.previousActivity.PreviousActivity"
             android:exported="false" /> <!-- networkSecurityConfig는 res/xml 폴더 안에 있는 네트워크 허용 파일 적용시킨 겁니다. -->
         <activity
-            android:name=".MbtiDetailActivity"
+            android:name=".activity.mbtiDiscriptionActivity.MbtiDetailActivity"
             android:exported="false" />
         <!-- networkSecurityConfig는 res/xml 폴더 안에 있는 네트워크 허용 파일 적용시킨 겁니다. -->
         <activity
-            android:name=".MbtiQuestionActivity"
+            android:name=".activity.settingActivity.MbtiQuestionActivity"
             android:exported="false">
         </activity>
         <activity
-            android:name=".SettingActivity"
+            android:name=".activity.settingActivity.SettingActivity"
             android:exported="true">
             android:name=".MainActivity"
             android:exported="true" >
@@ -41,7 +41,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".MainActivity"
+            android:name=".activity.MainActivity"
             android:exported="true">
           <!--  <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

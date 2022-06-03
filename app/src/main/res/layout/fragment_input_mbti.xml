@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".SettingActivity"
+    tools:context=".activity.settingActivity.SettingActivity"
     android:background="#FCF7F6">
 
     <LinearLayout
@@ -14,7 +14,7 @@
         android:layout_height="205dp"
         android:layout_gravity="center"
         android:elevation="10dp"
-        android:background="@drawable/dlg_background"
+        android:background="@drawable/dialog_show_or_input_background"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -71,7 +71,7 @@
         android:layout_height="wrap_content"
         android:layout_marginEnd="36dp"
         android:layout_marginBottom="44dp"
-        android:background="@drawable/user_show_button_anim_ripple"
+        android:background="@drawable/user_show_button_anim_ripple_default"
         android:text="Enter"
         android:visibility="invisible"
         app:layout_constraintBottom_toBottomOf="parent"

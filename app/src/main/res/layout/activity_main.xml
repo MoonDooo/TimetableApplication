@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#FFFDFC"
-    tools:context=".MainActivity">
+    tools:context=".activity.MainActivity">
 
 
     <TableLayout
@@ -14,7 +14,7 @@
         android:layout_height="wrap_content"
         android:layout_weight="1"
         android:stretchColumns="*"
-        android:background="@drawable/back_table3"
+        android:background="@drawable/timetable_background_design1"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
@@ -43,7 +43,7 @@
                 android:text="월"
                 android:gravity="center"
                 android:textAlignment="center"
-                android:background="@drawable/table_cell_top_edge"/>
+                android:background="@drawable/timetable_cell_top_edge"/>
 
             <TextView
                 android:id="@+id/tue0"
@@ -53,7 +53,7 @@
                 android:gravity="center"
                 android:textSize="10dp"
                 android:text="화"
-                android:background="@drawable/table_cell_top_edge"/>
+                android:background="@drawable/timetable_cell_top_edge"/>
 
             <TextView
                 android:id="@+id/wed0"
@@ -63,7 +63,7 @@
                 android:textSize="10dp"
                 android:text="수"
                 android:textAlignment="center"
-                android:background="@drawable/table_cell_top_edge"/>
+                android:background="@drawable/timetable_cell_top_edge"/>
 
             <TextView
                 android:id="@+id/thu0"
@@ -73,7 +73,7 @@
                 android:textSize="10dp"
                 android:text="목"
                 android:textAlignment="center"
-                android:background="@drawable/table_cell_top_edge"/>
+                android:background="@drawable/timetable_cell_top_edge"/>
 
             <TextView
                 android:id="@+id/fri0"
@@ -84,7 +84,7 @@
                 android:text="금"
                 android:textAlignment="center"
                 android:layout_marginRight="20dp"
-                android:background="@drawable/table_cell_top_edge"/>
+                android:background="@drawable/timetable_cell_top_edge"/>
 
         </TableRow>
 
@@ -102,7 +102,7 @@
 
                 android:text="9"
                 android:textAlignment="center"
-                android:background="@drawable/table_cell_left_edge"/>
+                android:background="@drawable/timetable_cell_left_edge"/>
 
             <TextView
                 android:id="@+id/mon1"
@@ -112,7 +112,7 @@
 
                 android:text=""
                 android:textAlignment="center"
-                android:background="@drawable/table_cell_left_edge"/>
+                android:background="@drawable/timetable_cell_left_edge"/>
 
             <TextView
                 android:id="@+id/tue1"
@@ -121,7 +121,7 @@
                 android:gravity="center"
 
                 android:text=""
-                android:background="@drawable/table_cell_border"/>
+                android:background="@drawable/timetable_border"/>
 
             <TextView
                 android:id="@+id/wed1"
@@ -131,7 +131,7 @@
 
                 android:text=""
                 android:textAlignment="center"
-                android:background="@drawable/table_cell_border"/>
+                android:background="@drawable/timetable_border"/>
 
             <TextView
                 android:id="@+id/thu1"
@@ -141,7 +141,7 @@
 
                 android:text=""
                 android:textAlignment="center"
-                android:background="@drawable/table_cell_border"/>
+                android:background="@drawable/timetable_border"/>
 
             <TextView
                 android:id="@+id/fri1"
@@ -150,7 +150,7 @@
                 android:gravity="center"
                 android:text=""
                 android:layout_marginRight="20dp"
-                android:background="@drawable/table_cell_border"/>
+                android:background="@drawable/timetable_border"/>
 
         </TableRow>
 
@@ -169,7 +169,7 @@
                 android:text="10"
                 android:textAlignment="center"
                 android:layout_marginLeft="10dp"
-                android:background="@drawable/table_cell_left_edge"/>
+                android:background="@drawable/timetable_cell_left_edge"/>
 
             <TextView
                 android:id="@+id/mon2"
@@ -179,7 +179,7 @@
 
                 android:text=""
                 android:textAlignment="center"
-                android:background="@drawable/table_cell_border"/>
+                android:background="@drawable/timetable_border"/>
 
             <TextView
                 android:id="@+id/tue2"
@@ -189,7 +189,7 @@
 
                 android:text=""
                 android:textAlignment="center"
-                android:background="@drawable/table_cell_border"/>
+                android:background="@drawable/timetable_border"/>
 
             <TextView
                 android:id="@+id/wed2"
@@ -199,7 +199,7 @@
 
                 android:text=""
                 android:textAlignment="center"
-                android:background="@drawable/table_cell_border"/>
+                android:background="@drawable/timetable_border"/>
 
             <TextView
                 android:id="@+id/thu2"
@@ -209,7 +209,7 @@
 
                 android:text=""
                 android:textAlignment="center"
-                android:background="@drawable/table_cell_border"
+                android:background="@drawable/timetable_border"
 
                 />
 
@@ -222,7 +222,7 @@
                 android:gravity="center"
                 android:text=""
                 android:textAlignment="center"
-                android:background="@drawable/table_cell_border"/>
+                android:background="@drawable/timetable_border"/>
 
         </TableRow>
 
@@ -239,7 +239,7 @@
                 android:text="11"
                 android:textAlignment="center"
                 android:layout_marginLeft="10dp"
-                android:background="@drawable/table_cell_left_edge"/>
+                android:background="@drawable/timetable_cell_left_edge"/>
 
             <TextView
                 android:id="@+id/mon3"
@@ -249,7 +249,7 @@
 
                 android:text=""
                 android:textAlignment="center"
-                android:background="@drawable/table_cell_border"/>
+                android:background="@drawable/timetable_border"/>
 
             <TextView
                 android:id="@+id/tue3"
@@ -259,7 +259,7 @@
 
                 android:text=""
                 android:textAlignment="center"
-                android:background="@drawable/table_cell_border"/>
+                android:background="@drawable/timetable_border"/>
 
             <TextView
                 android:id="@+id/wed3"
@@ -269,7 +269,7 @@
 
                 android:text=""
                 android:textAlignment="center"
-                android:background="@drawable/table_cell_border"/>
+                android:background="@drawable/timetable_border"/>
 
             <TextView
                 android:id="@+id/thu3"
@@ -279,7 +279,7 @@
 
                 android:text=""
                 android:textAlignment="center"
-                android:background="@drawable/table_cell_border"/>
+                android:background="@drawable/timetable_border"/>
 
             <TextView
                 android:id="@+id/fri3"
@@ -290,7 +290,7 @@
                 android:text=""
                 android:textAlignment="center"
                 android:layout_marginRight="20dp"
-                android:background="@drawable/table_cell_border"/>
+                android:background="@drawable/timetable_border"/>
 
         </TableRow>
 
@@ -308,7 +308,7 @@
                 android:text="12"
                 android:textAlignment="center"
                 android:layout_marginLeft="10dp"
-                android:background="@drawable/table_cell_left_edge"/>
+                android:background="@drawable/timetable_cell_left_edge"/>
 
             <TextView
                 android:id="@+id/mon4"
@@ -318,7 +318,7 @@
 
                 android:text=""
                 android:textAlignment="center"
-                android:background="@drawable/table_cell_border"/>
+                android:background="@drawable/timetable_border"/>
 
             <TextView
                 android:id="@+id/tue4"
@@ -328,7 +328,7 @@
 
                 android:text=""
                 android:textAlignment="center"
-                android:background="@drawable/table_cell_border"/>
+                android:background="@drawable/timetable_border"/>
 
             <TextView
                 android:id="@+id/wed4"
@@ -338,7 +338,7 @@
 
                 android:text=""
                 android:textAlignment="center"
-                android:background="@drawable/table_cell_border"/>
+                android:background="@drawable/timetable_border"/>
 
             <TextView
                 android:id="@+id/thu4"
@@ -348,7 +348,7 @@
 
                 android:text=""
                 android:textAlignment="center"
-                android:background="@drawable/table_cell_border"/>
+                android:background="@drawable/timetable_border"/>
 
             <TextView
                 android:id="@+id/fri4"
@@ -359,7 +359,7 @@
                 android:text=""
                 android:textAlignment="center"
                 android:layout_marginRight="20dp"
-                android:background="@drawable/table_cell_border"/>
+                android:background="@drawable/timetable_border"/>
 
         </TableRow>
 
@@ -377,7 +377,7 @@
                 android:text="1"
                 android:textAlignment="center"
                 android:layout_marginLeft="10dp"
-                android:background="@drawable/table_cell_left_edge"
+                android:background="@drawable/timetable_cell_left_edge"
                 />
 
             <TextView
@@ -387,7 +387,7 @@
                 android:gravity="center"
                 android:text=""
                 android:textAlignment="center"
-                android:background="@drawable/table_cell_border"/>
+                android:background="@drawable/timetable_border"/>
 
 
             <TextView
@@ -398,7 +398,7 @@
 
                 android:text=""
                 android:textAlignment="center"
-                android:background="@drawable/table_cell_border"/>
+                android:background="@drawable/timetable_border"/>
 
             <TextView
                 android:id="@+id/wed5"
@@ -408,7 +408,7 @@
 
                 android:text=""
                 android:textAlignment="center"
-                android:background="@drawable/table_cell_border"/>
+                android:background="@drawable/timetable_border"/>
 
             <TextView
                 android:id="@+id/thu5"
@@ -418,7 +418,7 @@
 
                 android:text=""
                 android:textAlignment="center"
-                android:background="@drawable/table_cell_border"/>
+                android:background="@drawable/timetable_border"/>
 
             <TextView
                 android:id="@+id/fri5"
@@ -429,7 +429,7 @@
                 android:text=""
                 android:textAlignment="center"
                 android:layout_marginRight="20dp"
-                android:background="@drawable/table_cell_border"/>
+                android:background="@drawable/timetable_border"/>
 
         </TableRow>
 
@@ -447,7 +447,7 @@
                 android:text="2"
                 android:textAlignment="center"
                 android:layout_marginLeft="10dp"
-                android:background="@drawable/table_cell_left_edge"/>
+                android:background="@drawable/timetable_cell_left_edge"/>
 
             <TextView
                 android:id="@+id/mon6"
@@ -457,7 +457,7 @@
 
                 android:text=""
                 android:textAlignment="center"
-                android:background="@drawable/table_cell_border"/>
+                android:background="@drawable/timetable_border"/>
 
             <TextView
                 android:id="@+id/tue6"
@@ -467,7 +467,7 @@
 
                 android:text=""
                 android:textAlignment="center"
-                android:background="@drawable/table_cell_border"/>
+                android:background="@drawable/timetable_border"/>
 
             <TextView
                 android:id="@+id/wed6"
@@ -476,7 +476,7 @@
                 android:gravity="center"
                 android:text=""
                 android:textAlignment="center"
-                android:background="@drawable/table_cell_border"/>
+                android:background="@drawable/timetable_border"/>
 
             <TextView
                 android:id="@+id/thu6"
@@ -485,7 +485,7 @@
                 android:gravity="center"
                 android:text=""
                 android:textAlignment="center"
-                android:background="@drawable/table_cell_border"/>
+                android:background="@drawable/timetable_border"/>
 
             <TextView
                 android:id="@+id/fri6"
@@ -495,7 +495,7 @@
                 android:text=""
                 android:textAlignment="center"
                 android:layout_marginRight="20dp"
-                android:background="@drawable/table_cell_border"/>
+                android:background="@drawable/timetable_border"/>
 
         </TableRow>
 
@@ -512,7 +512,7 @@
                 android:text="3"
                 android:textAlignment="center"
                 android:layout_marginLeft="10dp"
-                android:background="@drawable/table_cell_left_edge"/>
+                android:background="@drawable/timetable_cell_left_edge"/>
 
             <TextView
                 android:id="@+id/mon7"
@@ -521,7 +521,7 @@
                 android:gravity="center"
                 android:text=""
                 android:textAlignment="center"
-                android:background="@drawable/table_cell_border"/>
+                android:background="@drawable/timetable_border"/>
 
             <TextView
                 android:id="@+id/tue7"
@@ -530,7 +530,7 @@
                 android:gravity="center"
                 android:text=""
                 android:textAlignment="center"
-                android:background="@drawable/table_cell_border"/>
+                android:background="@drawable/timetable_border"/>
 
             <TextView
                 android:id="@+id/wed7"
@@ -539,7 +539,7 @@
                 android:gravity="center"
                 android:text=""
                 android:textAlignment="center"
-                android:background="@drawable/table_cell_border"/>
+                android:background="@drawable/timetable_border"/>
 
             <TextView
                 android:id="@+id/thu7"
@@ -548,7 +548,7 @@
                 android:gravity="center"
                 android:text=""
                 android:textAlignment="center"
-                android:background="@drawable/table_cell_border"/>
+                android:background="@drawable/timetable_border"/>
 
             <TextView
                 android:id="@+id/fri7"
@@ -558,7 +558,7 @@
                 android:text=""
                 android:textAlignment="center"
                 android:layout_marginRight="20dp"
-                android:background="@drawable/table_cell_border"/>
+                android:background="@drawable/timetable_border"/>
 
         </TableRow>
 
@@ -575,7 +575,7 @@
                 android:text="4"
                 android:textAlignment="center"
                 android:layout_marginLeft="10dp"
-                android:background="@drawable/table_cell_left_edge"/>
+                android:background="@drawable/timetable_cell_left_edge"/>
 
             <TextView
                 android:id="@+id/mon8"
@@ -584,7 +584,7 @@
                 android:gravity="center"
                 android:text=""
                 android:textAlignment="center"
-                android:background="@drawable/table_cell_border"/>
+                android:background="@drawable/timetable_border"/>
 
             <TextView
                 android:id="@+id/tue8"
@@ -593,7 +593,7 @@
                 android:gravity="center"
                 android:text=""
                 android:textAlignment="center"
-                android:background="@drawable/table_cell_border"/>
+                android:background="@drawable/timetable_border"/>
 
             <TextView
                 android:id="@+id/wed8"
@@ -602,7 +602,7 @@
                 android:gravity="center"
                 android:text=""
                 android:textAlignment="center"
-                android:background="@drawable/table_cell_border"/>
+                android:background="@drawable/timetable_border"/>
 
             <TextView
                 android:id="@+id/thu8"
@@ -611,7 +611,7 @@
                 android:gravity="center"
                 android:text=""
                 android:textAlignment="center"
-                android:background="@drawable/table_cell_border"/>
+                android:background="@drawable/timetable_border"/>
 
             <TextView
                 android:id="@+id/fri8"
@@ -621,7 +621,7 @@
                 android:text=""
                 android:textAlignment="center"
                 android:layout_marginRight="20dp"
-                android:background="@drawable/table_cell_border"/>
+                android:background="@drawable/timetable_border"/>
 
         </TableRow>
 
@@ -638,7 +638,7 @@
                 android:text="5"
                 android:textAlignment="center"
                 android:layout_marginLeft="10dp"
-                android:background="@drawable/table_cell_left_edge"/>
+                android:background="@drawable/timetable_cell_left_edge"/>
 
             <TextView
                 android:id="@+id/mon9"
@@ -647,7 +647,7 @@
                 android:gravity="center"
                 android:text=""
                 android:textAlignment="center"
-                android:background="@drawable/table_cell_border"/>
+                android:background="@drawable/timetable_border"/>
 
             <TextView
                 android:id="@+id/tue9"
@@ -656,7 +656,7 @@
                 android:gravity="center"
                 android:text=""
                 android:textAlignment="center"
-                android:background="@drawable/table_cell_border"/>
+                android:background="@drawable/timetable_border"/>
 
             <TextView
                 android:id="@+id/wed9"
@@ -665,7 +665,7 @@
                 android:gravity="center"
                 android:text=""
                 android:textAlignment="center"
-                android:background="@drawable/table_cell_border"/>
+                android:background="@drawable/timetable_border"/>
 
             <TextView
                 android:id="@+id/thu9"
@@ -674,7 +674,7 @@
                 android:gravity="center"
                 android:text=""
                 android:textAlignment="center"
-                android:background="@drawable/table_cell_border"/>
+                android:background="@drawable/timetable_border"/>
 
             <TextView
                 android:id="@+id/fri9"
@@ -684,7 +684,7 @@
                 android:text=""
                 android:textAlignment="center"
                 android:layout_marginRight="20dp"
-                android:background="@drawable/table_cell_border"/>
+                android:background="@drawable/timetable_border"/>
 
         </TableRow>
 
@@ -701,7 +701,7 @@
                 android:text="6"
                 android:textAlignment="center"
                 android:layout_marginLeft="10dp"
-                android:background="@drawable/table_cell_left_edge"/>
+                android:background="@drawable/timetable_cell_left_edge"/>
 
             <TextView
                 android:id="@+id/mon10"
@@ -710,7 +710,7 @@
                 android:gravity="center"
                 android:text=""
                 android:textAlignment="center"
-                android:background="@drawable/table_cell_border"/>
+                android:background="@drawable/timetable_border"/>
 
             <TextView
                 android:id="@+id/tue10"
@@ -719,7 +719,7 @@
                 android:gravity="center"
                 android:text=""
                 android:textAlignment="center"
-                android:background="@drawable/table_cell_border"/>
+                android:background="@drawable/timetable_border"/>
 
             <TextView
                 android:id="@+id/wed10"
@@ -728,7 +728,7 @@
                 android:gravity="center"
                 android:text=""
                 android:textAlignment="center"
-                android:background="@drawable/table_cell_border"/>
+                android:background="@drawable/timetable_border"/>
 
             <TextView
                 android:id="@+id/thu10"
@@ -737,7 +737,7 @@
                 android:gravity="center"
                 android:text=""
                 android:textAlignment="center"
-                android:background="@drawable/table_cell_border"/>
+                android:background="@drawable/timetable_border"/>
 
             <TextView
                 android:id="@+id/fri10"
@@ -747,7 +747,7 @@
                 android:text=""
                 android:textAlignment="center"
                 android:layout_marginRight="20dp"
-                android:background="@drawable/table_cell_border"/>
+                android:background="@drawable/timetable_border"/>
 
         </TableRow>
 

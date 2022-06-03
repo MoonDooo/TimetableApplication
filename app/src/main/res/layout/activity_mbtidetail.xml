@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#FFFDFC"
-    tools:context=".MbtiDetailActivity">
+    tools:context=".activity.mbtiDiscriptionActivity.MbtiDetailActivity">
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -24,7 +24,7 @@
                 android:layout_height="55dp"
                 android:layout_gravity="left"
                 android:layout_marginTop="20dp"
-                android:src="@drawable/back_btn555" />
+                android:src="@drawable/button_back_design2" />
 
             <ImageView
                 android:id="@+id/mbti_image2"

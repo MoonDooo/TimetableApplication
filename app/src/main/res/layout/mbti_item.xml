@@ -16,7 +16,7 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="250dp"
-            android:background="@drawable/back_mbti_card2"
+            android:background="@drawable/cardview_mbti_detail_design3"
             android:orientation="horizontal">
 
             <ImageView
@@ -28,7 +28,7 @@
                 android:padding="5dp"
 
                 android:transitionName="mbti_image_detail"
-                app:srcCompat="@drawable/entp"
+                app:srcCompat="@drawable/mbti_image_entp"
 
                 />
 
